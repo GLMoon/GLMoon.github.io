@@ -17,6 +17,53 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+div.gallery {
+  border: 1px solid #ccc;
+  margin-top: 25px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 </head>
 <body class="w3-black">
@@ -78,7 +125,144 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <h1 class="w3-jumbo"><span class="w3-hide-small">OTHER MEDIA</h1>
   </header>
 
-  <p>Under Construction </p>
+<!--- BookShelf -->
+<h3 class="w3-text">Completed Mangas </h3>
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="20.png">
+        <img src="20.png" alt="Cinque Terre">
+      </a>
+      <div class="desc">20th Century Boys</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="monster.png">
+        <img src="monster.png" alt="Forest">
+      </a>
+      <div class="desc">Monster</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="tg.png">
+        <img src="tg.png" alt="Mountains">
+      </a>
+      <div class="desc">Tokyo Ghoul</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="tgre.png">
+        <img src="tgre.png" alt="Mountains">
+      </a>
+      <div class="desc">Tokyo Ghoul :RE</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="blame.png">
+        <img src="blame.png" alt="Northern Lights">
+      </a>
+      <div class="desc">BLAME!</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="apo.png">
+        <img src="apo.png" alt="Northern Lights">
+      </a>
+      <div class="desc">Aposimz</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="gantz.png">
+        <img src="gantz.png" alt="Northern Lights">
+      </a>
+      <div class="desc">GANTZ</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="inuyashiki.png">
+        <img src="inuyashiki.png" alt="Northern Lights">
+      </a>
+      <div class="desc">Inuyashiki</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="claymore.png">
+        <img src="claymore.png" alt="Forest">
+      </a>
+      <div class="desc">Claymore</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="fma.png">
+        <img src="fma.png" alt="Forest">
+      </a>
+      <div class="desc">Fullmetal Alchemist</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="aot.png">
+        <img src="aot.png" alt="Forest">
+      </a>
+      <div class="desc">Attack on Titan</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="demon.png">
+        <img src="demon.png" alt="Forest">
+      </a>
+      <div class="desc">Demon Slayer</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="pun.png">
+        <img src="pun.png" alt="Forest">
+      </a>
+      <div class="desc">Good Night PunPun</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="hom.png">
+        <img src="hom.png" alt="Forest">
+      </a>
+      <div class="desc">Homunculus</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="heads.png">
+        <img src="heads.png" alt="Forest">
+      </a>
+      <div class="desc">Heads</div>
+    </div>
+  </div>
+  
+  <div class="clearfix"></div>
 
 <!-- END PAGE CONTENT -->
 </div>
