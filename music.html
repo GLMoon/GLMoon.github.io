@@ -21,6 +21,54 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+div.gallery {
+  border: 1px solid #ccc;
+  margin-top: 25px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 </style>
 </head>
 <body class="w3-black">
@@ -100,6 +148,26 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <h5>Die For You [Remix] // Original: the Weeknd & Arianna Grande</h5>
     <iframe width="50%" height="300px" src="https://www.youtube.com/embed/7ALlFn-pYnk?si=88AQKBpo4Qmz-bUS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
     <p3>Credits: Vocals - the Weeknd & Arianna Grande, Instrumentals - me </p3>
+    
+    <h3 class="w3-text">My Music Reviews</h3>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="spring.html">
+          <img src="spring.png" alt="music">
+        </a>
+        <div class="desc">You Must Believe in Spring - Bill Evans</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="fem.html">
+          <img src="fem.png" alt="music">
+        </a>
+        <div class="desc">The Divine Feminine - Mac Miller</div>
+      </div>
+    </div>
 
 <!-- END PAGE CONTENT -->
 </div>
